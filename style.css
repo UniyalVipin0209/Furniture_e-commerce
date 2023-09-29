@@ -604,6 +604,10 @@ nav{
             margin:5px 20px;
         }
   
+        .featured2-left-col   .c-btn{
+            margin-top:50px;
+            
+        }
         #selling,#blog{
             display: flex;
             flex-direction: column;
