@@ -74,7 +74,7 @@ nav{
 }
 
 
-.circle{
+.circle,.circle1{
     width: 400px;
     height:400px;
     background-color: rgba(0,0,0,0.05);
@@ -89,7 +89,7 @@ nav{
     top:20%;
     right:12%;
 }
-.second{
+.second,.second1{
     left:12%;
 }
 .third{
@@ -343,9 +343,8 @@ nav{
 }
 
 .featured2-right-col {
-    flex-basis: 48%;
+    flex-basis: 46%;
     text-align: center; 
-    margin-top:35px;
   
 }
 .featured2-right-col img {
@@ -568,24 +567,37 @@ nav{
         display: none;
     }
     .circle{
-        width:240px;
-        height: 240px;
+        display: none;
+    }
+    .circle1{
+        width:260px;
+        height: 260px;
+        background-color: rgba(0,0,0,0.05);
+        border-radius: 50%;
+        position: absolute;
+        /* important */
+        z-index: -1;
     }
     .first{
+        
         top:20%;
         right:12%;
     }
     .second{
+        display: none;
         left:12%;
     }
     .third{
-     
+        display: none;
+   
         right:12%;
         bottom:8%;
     }
     .container .left{
-        flex-basis: 80%;
-        margin:100px 0 0 100px;
+        flex-basis: 100%;
+        margin:130px 0 0 70px;
+        /* background-color: #e5e6e7; */
+        /* border-radius: 50%; */
         }
 
         .featured-row, .offer-row, .featured2-row, .featured3-row{
@@ -595,16 +607,28 @@ nav{
             justify-items: center;
 
           }
-        
+       
           .featured-row .featured-left-col, .featured-row .featured-right-col,
           .featured-row .featured2-left-col, .featured-row .featured2-right-col,
           .featured3-row .featured3-left-col, .featured3-row .featured3-right-col
         
         {
             flex-basis: 100%;
-            margin:5px 20px;
         }
-  
+        .featured-row .featured-left-col, 
+         .featured2-row .featured2-right-col,
+        .featured3-row .featured3-left-col
+      {
+          border-radius: 50%;
+            background-color: #e5e6e7;
+          
+      }
+
+      .featured-row .featured-right-col,
+      .featured3-row .featured3-right-col
+      {
+        margin-left:8%;
+      }
         .featured2-left-col   .c-btn{
             margin-top:50px;
             
@@ -664,6 +688,7 @@ nav{
            
         }
         .btn input{
+            flex-basis: 60%;
             margin:auto;
             padding:10px;
             width:50%;
@@ -672,6 +697,7 @@ nav{
             outline:none;
         }
         .btn button{
+            flex-basis: 60%;
             padding:10px 18px;
             font-size: 13px;
             width:200px;
@@ -690,8 +716,8 @@ nav{
         display: none;
     }
     #welcome{
-        width:100px;
-        z-index: -2;
+        width:90px;
+        z-index: -1;
     }
     #footer{
         padding:0px;
