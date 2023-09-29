@@ -606,10 +606,9 @@ nav{
         #selling,#blog{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
             flex-basis: 100%;
-            padding:10px 20px;
+            padding:30px 30px;
+            margin-top: 40px;
             display: block;
             text-align: center;    
         }
