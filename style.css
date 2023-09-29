@@ -355,10 +355,11 @@ nav{
 }
 
 /* Feature 3 */
-#featured3{
+#featured3, #featured2{
     width:100%;
     height:90vh;
     /*max-width: 900px; */
+    margin:20px 10px;
     padding:30px 30px 30px 5px;
     position:relative;
        
@@ -633,21 +634,21 @@ nav{
         .left h1{
             font-family: Poppins;
             font-size: 28px;
-            font-weight: 600;
+            font-weight: 800;
         }
         .left span{
             font-family: Poppins;
             font-size: 28px;
-            font-weight: 600;
+            font-weight: 800;
             color:#7f8fa6;
             letter-spacing: 1.02px;
         
         }
         .p-header{
-            margin-top: 10px;
-            font-weight: 600;
+            margin-top: 11px;
+            font-weight: 700;
             /* font-family: Lato; */
-            font-size: 13px;
+            font-size: 13.4px;
             color:rgb(99, 71, 2)
         }
         .btn{
