@@ -579,8 +579,9 @@ nav{
         left:12%;
     }
     .third{
-        right:8%;
-        bottom:12%;
+     
+        right:12%;
+        bottom:8%;
     }
     .container .left{
         flex-basis: 80%;
